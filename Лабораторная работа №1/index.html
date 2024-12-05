@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Задания</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="task">
+        <h2>Задание 1</h2>
+        <button onclick="requestNumber()">Запросить число</button>
+        <div id="numberResult"></div>
+    </div>
+
+    <div class="task">
+        <h2>Задание 2</h2>
+        <div class="calculator">
+            <h3>Калькулятор</h3>
+            <div class="inputs">
+                <input type="number" id="num1" placeholder="Введите первое число">
+                <input type="number" id="num2" placeholder="Введите второе число">
+            </div>
+            <div class="buttons">
+                <button onclick="calculate('+')">+</button>
+                <button onclick="calculate('-')">-</button>
+                <button onclick="calculate('*')">×</button>
+                <button onclick="calculate('/')">/</button>
+            </div>
+            <div id="result">Результат: </div>
+        </div>
+    </div>
+
+    <div class="task">
+        <h2>Задание 3</h2>
+        <p>Задумайте число, умножьте его на 2 и прибавьте 7.</p>
+        <button onclick="guessNumber()">Угадать число</button>
+        <div id="guessResult"></div>
+    </div>
+
+    <div class="task">
+        <h2>Задание 4</h2>
+        <button onclick="calculateAge()">Рассчитать возраст</button>
+        <div id="ageOutput"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
