@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Практическая работа</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Практическая работа с JavaScript</h1>
+        <div id="task1" class="task-block">
+            <h2>Задание 1</h2>
+            <button onclick="showMessage()">Показать сообщение</button>
+        </div>
+
+        <div id="task2" class="task-block">
+            <h2>Задание 2 - Палиндром</h2>
+            <input type="text" id="palindromeInput" placeholder="Введите слово">
+            <button onclick="checkPalindrome()">Проверить</button>
+            <p id="palindromeResult"></p>
+        </div>
+
+        <div id="task3" class="task-block">
+            <h2>Задание 3 - Массив</h2>
+            <button onclick="processArray()">Обработать массив</button>
+            <p id="arrayResult"></p>
+        </div>
+
+        <div id="task4" class="task-block">
+            <h2>Задание 4 - Имя пользователя</h2>
+            <input type="text" id="userNameInput" placeholder="Введите имя">
+            <button onclick="createUser()">Создать</button>
+            <p id="userNameResult"></p>
+        </div>
+
+        <div id="task5" class="task-block">
+            <h2>Задание 5 - Класс Clock</h2>
+            <div id="clockResult"></div>
+        </div>
+
+        <div id="task6" class="task-block">
+            <h2>Задание 6 - Перевернуть имя</h2>
+            <input type="text" id="reverseNameInput" placeholder="Введите имя">
+            <button onclick="reverseName()">Перевернуть</button>
+            <p id="reverseNameResult"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
