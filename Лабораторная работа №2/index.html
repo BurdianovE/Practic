@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Задания JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Задания JavaScript</h1>
+        
+        <!-- Задание 1: Игра в загадки -->
+        <div class="task-block" id="task1">
+            <h2>Задание 1: Игра в загадки</h2>
+            <div id="riddle-container">
+                <p id="riddle-text"></p>
+                <input type="text" id="answer-input" placeholder="Введите ваш ответ">
+                <button onclick="checkAnswer()">Проверить</button>
+            </div>
+            <div id="result"></div>
+            <div id="score"></div>
+        </div>
+
+        <!-- Задание 2: Счёт от 1 до 10 -->
+        <div class="task-block" id="task2">
+            <h2>Задание 2: Счёт от 1 до 10</h2>
+            <button onclick="startCounting()">Начать счёт</button>
+            <div id="counter-output"></div>
+        </div>
+
+        <!-- Задание 3: Программа для застолий -->
+        <div class="task-block" id="task3">
+            <h2>Задание 3: Программа для застолий</h2>
+            <div id="party-container">
+                <p id="party-question">Еще по одной?</p>
+                <input type="number" id="party-input" placeholder="Введите 1 для остановки">
+                <button onclick="checkPartyAnswer()">Ответить</button>
+            </div>
+            <div id="party-result"></div>
+        </div>
+
+        <!-- Задание 4: Вычисление факториала -->
+        <div class="task-block" id="task4">
+            <h2>Задание 4: Вычисление факториала</h2>
+            <div id="factorial-container">
+                <p>Введите число для вычисления факториала:</p>
+                <input type="number" id="factorial-input" min="0" max="170" placeholder="Введите число">
+                <button onclick="calculateFactorial()">Вычислить факториал</button>
+                <div id="factorial-result"></div>
+            </div>
+        </div>
+
+        <!-- Задание 5: Проверка на палиндром -->
+        <div class="task-block" id="task5">
+            <h2>Задание 5: Проверка на палиндром</h2>
+            <div id="palindrome-container">
+                <p>Введите вашу фамилию для проверки на палиндром:</p>
+                <input type="text" id="palindrome-input" placeholder="Введите слово">
+                <button onclick="checkPalindrome()">Проверить</button>
+                <div id="palindrome-result"></div>
+            </div>
+        </div>
+
+        <!-- Задание 6: Поиск простых чисел -->
+        <div class="task-block" id="task6">
+            <h2>Задание 6: Поиск простых чисел</h2>
+            <div id="prime-container">
+                <p>Введите ваш порядковый номер в журнале:</p>
+                <input type="number" id="prime-input" min="1" placeholder="Введите число">
+                <button onclick="findPrimeNumbers()">Найти простые числа</button>
+                <div id="prime-result"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

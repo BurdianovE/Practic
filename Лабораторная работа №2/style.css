@@ -1,0 +1,104 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.task-block {
+    margin: 40px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+#riddle-container, #party-container {
+    margin: 20px 0;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result, #party-result {
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+#score {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+#counter-output {
+    margin: 20px 0;
+    font-size: 1.2em;
+    min-height: 30px;
+}
+
+#party-question {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+#party-input {
+    width: 150px;
+}
+
+#factorial-container {
+    margin: 20px 0;
+}
+
+#factorial-input {
+    width: 150px;
+    text-align: center;
+}
+
+#factorial-result {
+    margin: 20px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    word-wrap: break-word;
+}
+
+#palindrome-input {
+    width: 200px;
+    text-align: center;
+}
+
+#palindrome-result {
+    margin: 20px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#prime-input {
+    width: 150px;
+    text-align: center;
+}
+
+#prime-result {
+    margin: 20px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    word-wrap: break-word;
+}
