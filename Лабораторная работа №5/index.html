@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Задания</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="task-window">
+            <h2>1. Калькулятор</h2>
+            <div class="calculator">
+                <input type="number" id="num1" placeholder="Первое число">
+                <input type="number" id="num2" placeholder="Второе число">
+                <select id="operation">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">×</option>
+                    <option value="/">÷</option>
+                </select>
+                <button onclick="calculate()">Вычислить</button>
+                <div id="result"></div>
+            </div>
+        </div>
+
+        <div class="task-window">
+            <h2>2. Проверка условий</h2>
+            <input type="number" id="conditionInput" placeholder="Введите число">
+            <button onclick="testConditions()">Проверить</button>
+            <div id="conditionResult"></div>
+        </div>
+
+        <div class="task-window">
+            <h2>3. Проверка палиндрома</h2>
+            <input type="text" id="surnameInput" placeholder="Введите фамилию">
+            <button onclick="checkPalindrome()">Проверить</button>
+            <div id="palindromeResult"></div>
+        </div>
+
+        <div class="task-window">
+            <h2>4. Среднее значение массива</h2>
+            <input type="text" id="arrayInput" placeholder="Введите числа через запятую">
+            <button onclick="calculateAverage()">Вычислить среднее</button>
+            <div id="averageResult"></div>
+        </div>
+
+        <div class="task-window">
+            <h2>5. Дни до Нового года</h2>
+            <button onclick="calculateDaysUntilNewYear()">Показать дни до НГ</button>
+            <div id="daysResult"></div>
+        </div>
+
+        <div class="task-window">
+            <h2>6. Пустая функция</h2>
+            <button onclick="testEmptyFunction()">Тест пустой функции</button>
+            <div id="emptyResult"></div>
+        </div>
+
+        <div class="task-window">
+            <h2>7. Операции с массивом</h2>
+            <button onclick="showArrayOperations()">Показать результаты</button>
+            <div id="arrayResults"></div>
+        </div>
+
+        <div class="task-window">
+            <h2>8. Фильтр email</h2>
+            <input type="text" id="emailFilter" placeholder="Введите для фильтрации">
+            <div id="emailList"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
